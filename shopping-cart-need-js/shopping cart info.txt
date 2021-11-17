@@ -1,0 +1,134 @@
+<div class="big-container cart-page">
+        <div class="small-container">
+            <table style="color: white" class="cart-parent">
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                
+                <tr>
+                    <div class="child">
+                    <td>
+                        <div class="cart-info">
+                            <img  class="cart-item-image" src="images/oneplus%20nord-2.jpg">
+                            <div>
+                                <p class="cart-item-title">Oneplus Nord CE</p>
+                                <br>
+                                <button class="button-remove">REMOVE</button>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input class="cart-input" type="number" value="1"></td>
+                    <td class="cart-item-price">&#8377;21.499</td>
+                    </div>
+                </tr>
+            
+                <tr>
+                    <div class="child">
+                    <td>
+                        <div class="cart-info">
+                            <img  class="cart-item-image" src="images/oneplus%20nord-2.jpg">
+                            <div>
+                                <p class="cart-item-title">Oneplus Nord CE</p>
+                                <br>
+                                <button class="button-remove">REMOVE</button>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input class="cart-input" type="number" value="1"></td>
+                    <td class="cart-item-price">&#8377;21.499</td>
+                    </div>
+                </tr>
+                <tr>
+                    <div class="child">
+                    <td>
+                        <div class="cart-info">
+                            <img  class="cart-item-image" src="images/oneplus%20nord-2.jpg">
+                            <div>
+                                <p class="cart-item-title">Oneplus Nord CE</p>
+                                <br>
+                                <button class="button-remove">REMOVE</button>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input class="cart-input" type="number" value="1"></td>
+                    <td class="cart-item-price">&#8377;21.499</td>
+                    </div>
+                </tr>
+            </table>
+            
+            <div class="total-price">
+                <table>
+                    
+                    <tr>
+                        <td class="cart-total-title">Total</td>
+                        <td class="cart-total-price">&#8377;64.497</td>
+                    </tr>
+                    <tr><td><a href="" class="button-place">Place Order</a></td></tr>
+                </table>
+            </div>
+            
+          </div>
+      </div>
+      
+      
+      <------------------------------shopping cart css--------------------------------->
+      
+      
+.cart-page{
+    padding: 80px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: grey;
+    font-weight: normal;
+}
+tr{
+    background: black;
+}
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;   
+}
+td img{
+    width: 80px;
+    height: 80px;
+    padding-right: 10px;
+}
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.total-price table{
+    border-top: 3px solid white;
+    width: 100%;
+    max-width: 400px;
+}
+.total-price td{
+    color: white;
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
+.cart-item-title{
+    margin: 5px;
+}
